@@ -1,0 +1,21 @@
+{
+  "id": "dev.yofukashino.TitleRefresh",
+  "name": "TitleRefresh",
+  "description": "Change how title is shown in discord refresh.",
+  "image": "https://i.imgur.com/YJHbIsk.png",
+  "source": "https://github.com/yofukashino/TitleRefresh",
+  "author": {
+    "name": "Nanakusa",
+    "discordID": "1121961711080050780",
+    "github": "yofukashino"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "dev.yofukashino.TitleRefresh"
+  },
+  "license": "MIT",
+  "type": "replugged-plugin",
+  "renderer": "src/index.ts",
+  "plaintextPatches": "src/plaintextPatches.ts"
+}
