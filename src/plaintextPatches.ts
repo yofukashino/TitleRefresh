@@ -4,9 +4,9 @@ export default [
     find: ".setMinimumSize(",
     replacements: [
       {
-        match: /title:(\(0,\w+\.jsx\)\(\w+,{}\))/,
-        replace: (_, original: string) =>
-          `title:replugged.plugins.getExports("dev.yofukashino.TitleRefresh")?._getTitle(${original})`,
+        match: /title:\(0,\w+\.jsx\)/,
+        replace: () =>
+          `title:replugged.plugins.getExports("dev.yofukashino.TitleRefresh")?._getTitle`,
       },
     ],
   },
