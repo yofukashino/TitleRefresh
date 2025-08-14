@@ -1,6 +1,6 @@
 {
   "name": "title-refresh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Change how title is shown in discord refresh.",
   "engines": {
     "node": ">=14.0.0"
