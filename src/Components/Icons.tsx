@@ -20,11 +20,11 @@ export const replugged = ({ ...props }: React.SVGProps<SVGSVGElement>): React.Re
         y2="0"
         gradientUnits="userSpaceOnUse"
         gradientTransform="matrix(24,-24,24,24,0,24)">
-        <stop offset="0" stop-color="rgb(255, 32, 62)" />
-        <stop offset="1" stop-color="rgb(80, 6, 255)" />
+        <stop offset="0" stopColor="rgb(255, 32, 62)" />
+        <stop offset="1" stopColor="rgb(80, 6, 255)" />
       </linearGradient>
     </defs>
-    <g clip-path="url(#clip1)">
+    <g clipPath="url(#clip1)">
       <rect x="0" y="0" width="24" height="24" fill="url(#gradient)" />
     </g>
   </svg>

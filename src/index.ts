@@ -1,14 +1,12 @@
-import { Logger } from "replugged";
-import { defaultSettings } from "./lib/consts";
-import { initSettings } from "./lib/ReactSettings";
-import { registerSettings } from "./Components/Settings";
-export const PluginLogger = Logger.plugin("TitleRefresh");
-export const SettingValues = initSettings("dev.yofukashino.TitleRefresh", defaultSettings);
-import "./style.css";
+import { Logger, settings } from "replugged";
+import { DefaultSettings } from "@Consts";
+import Settings from "@components/Settings";
+export const PluginLogger = Logger.plugin("TitleRefresh", "#ffffff80");
+export const SettingValues = settings.init("dev.yofukashino.TitleRefresh", DefaultSettings);
 
 export const start = (): void => {
-  registerSettings();
+  Settings.registerSettings();
 };
 export { _getTitle } from "./plaintextFunctions";
 
-export { Settings } from "./Components/Settings";
+export { Settings } from "@components/Settings";

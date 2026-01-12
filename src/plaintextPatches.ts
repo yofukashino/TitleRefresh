@@ -1,12 +1,12 @@
-import Types from "./types";
+import Types from "@Types";
+
 export default [
   {
     find: ".setMinimumSize(",
     replacements: [
       {
-        match: /title:\(0,\w+\.jsx\)/,
-        replace: () =>
-          `title:replugged.plugins.getExports("dev.yofukashino.TitleRefresh")?._getTitle`,
+        match: /title:\(0,\i\.jsx\)/,
+        replace: () => `title:$exports?._getTitle`,
       },
     ],
   },

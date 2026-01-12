@@ -1,4 +1,4 @@
-export const defaultSettings = {
+export const DefaultSettings = {
   custom: true,
   title: "Replugged",
   icon: "replugged",

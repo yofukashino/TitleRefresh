@@ -1,5 +1,6 @@
-import Title from "./Components/Title";
+import Title from "@components/Title";
 
-export const _getTitle = (OriginalTital: React.FC<unknown>, Props: Record<string, unknown>) => (
-  <Title original={<OriginalTital {...Props} />} />
-);
+export const _getTitle = (
+  OriginalTital: React.FC<unknown>,
+  Props: Record<string, unknown>,
+): React.ReactElement => <Title original={<OriginalTital {...Props} />} />;
